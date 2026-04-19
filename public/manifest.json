@@ -1,0 +1,43 @@
+{
+    "name": "MIS Guppi Rumbia",
+    "short_name": "MIS Guppi",
+    "description": "Sistem Informasi MIS Guppi Rumbia — Enrekang, Sulawesi Selatan",
+    "start_url": "/",
+    "scope": "/",
+    "display": "standalone",
+    "orientation": "portrait",
+    "background_color": "#ffffff",
+    "theme_color": "#1a56db",
+    "lang": "id",
+    "icons": [
+        {
+            "src": "/icons/icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/icons/icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ],
+    "shortcuts": [
+        {
+            "name": "Input Absensi",
+            "short_name": "Absensi",
+            "description": "Langsung ke input absensi",
+            "url": "/guru/absensi",
+            "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }]
+        },
+        {
+            "name": "Data Siswa",
+            "short_name": "Siswa",
+            "description": "Lihat data siswa",
+            "url": "/admin/siswa",
+            "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }]
+        }
+    ],
+    "categories": ["education", "productivity"]
+}
